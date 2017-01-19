@@ -1,0 +1,23 @@
+{
+  "name": "cineasta-docs",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "glamor": "^2.20.22",
+    "lodash": "^4.17.4",
+    "minireset.css": "^0.0.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-markdown-to-html": "^1.0.11",
+    "react-router": "^3.0.2"
+  },
+  "scripts": {
+    "start": "NODE_PATH=./src react-scripts start",
+    "build": "NODE_PATH=./src react-scripts build",
+    "test": "NODE_PATH=./src react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
