@@ -1,11 +1,10 @@
 import { css } from 'glamor'
 
-export const content = css({
-  margin: '0 auto',
+export const markdown = css({
   textAlign: 'justify',
-  '& p, ol, ul, h1, h2, h3, h4, h5, h6': {
+  '& h1, h2, h3, h4, h5, h6, p, ol, ul': {
     lineHeight: '20px',
-    margin: '35px 0',
+    margin: '20px 0',
   },
   '& h1': {
     fontSize: '36px',
@@ -29,7 +28,7 @@ export const content = css({
     fontSize: '24px',
   },
   '& a': {
-    color: '#39C571',
+    color: 'blue',
   },
   '& img': {
     display: 'block',
@@ -48,11 +47,15 @@ export const content = css({
     lineHeight: '30px',
     padding: '20px',
   },
-  '& pre': {
-    color: 'gray',
-    fontSize: '16px',
-    lineHeight: '24px',
+  '& pre, code': {
+    backgroundColor: 'dimgray',
+    color: '#B1D631',
+    lineHeight: '20px',
     textAlign: 'left',
     whiteSpace: 'pre-wrap',
-  }
+  },
+  '& pre': {
+    fontSize: '14px',
+    padding: '10px',
+  },
 })

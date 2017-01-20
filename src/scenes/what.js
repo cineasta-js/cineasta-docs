@@ -1,11 +1,11 @@
 import React from 'react'
 import Markdown from 'components/markdown'
-import markdownFile from 'scenes/index.md'
+import markdownFile from 'scenes/what.md'
 
-export const path = '/'
+export const path = 'what'
 export const take= 'app'
 
-export const component = (props) => (
+export const component = () => (
   <div>
     <Markdown file={ markdownFile } />
   </div>

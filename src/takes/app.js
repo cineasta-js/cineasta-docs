@@ -1,13 +1,21 @@
 import React from 'react'
+import { IndexLink } from 'react-router'
+import Menu from 'components/menu'
 import * as styles from 'takes/app.styles'
 
 export const component = (props) => (
   <div className={ styles.app }>
-    <header className={ styles.header }>header</header>
+    <header className={ styles.header }>
+      <IndexLink to='/'>
+        <img alt='cineastaJS Logo'
+          className={ styles.logo }
+          src='https://github.com/cineasta-js/brand/raw/master/logos/logo-transparent.png' />
+      </IndexLink>
+      <Menu />
+    </header>
     <article className={ styles.article }>
-      <h1>App</h1>
       { props.children }
     </article>
-    <aside className={ styles.aside }>aside</aside>
+    <aside className={ styles.aside }></aside>
   </div>
 )
