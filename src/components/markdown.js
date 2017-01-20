@@ -1,6 +1,6 @@
 import React from 'react'
 import Markdown2HTML from 'react-markdown-to-html'
-import * as styles from 'components/markdown.styles'
+import * as styles from 'components/Markdown.styles'
 
 const Markdown = (props) => (
   <div className={ styles.markdown }>

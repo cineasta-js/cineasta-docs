@@ -1,7 +1,7 @@
 import React from 'react'
 import { IndexLink } from 'react-router'
-import Menu from 'components/menu'
-import * as styles from 'takes/app.styles'
+import Menu from 'components/Menu'
+import * as styles from 'takes/App.styles'
 
 export const component = (props) => (
   <div className={ styles.app }>

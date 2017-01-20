@@ -1,6 +1,6 @@
 import React from 'react'
-import Markdown from 'components/markdown'
-import markdownFile from 'scenes/what.md'
+import Markdown from 'components/Markdown'
+import markdownFile from 'scenes/What.md'
 
 export const path = 'what'
 export const take= 'app'

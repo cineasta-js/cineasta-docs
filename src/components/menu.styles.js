@@ -13,4 +13,5 @@ export const link = css({
   display: 'inline-block',
   margin: '0 20px',
   padding: '10px 15px',
+  textDecoration: 'none',
 })

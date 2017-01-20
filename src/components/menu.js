@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-import * as styles from 'components/menu.styles'
+import * as styles from 'components/Menu.styles'
 
 const Menu = (props) => (
   <div className={ styles.menu }>

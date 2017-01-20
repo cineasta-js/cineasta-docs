@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { component as WhatScene } from 'scenes/what'
+import { component as WhatScene } from 'scenes/What'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')

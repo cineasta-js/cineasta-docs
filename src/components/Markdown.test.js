@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { component as HowScene } from 'scenes/How'
+import Markdown from 'components/Markdown'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<HowScene />, div)
+  ReactDOM.render(<Markdown />, div)
 })

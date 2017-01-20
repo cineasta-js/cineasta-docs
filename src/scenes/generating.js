@@ -1,6 +1,6 @@
 import React from 'react'
-import Markdown from 'components/markdown'
-import markdownFile from 'scenes/generating.md'
+import Markdown from 'components/Markdown'
+import markdownFile from 'scenes/Generating.md'
 
 export const path = 'generating'
 export const take= 'app'
