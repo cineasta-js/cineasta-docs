@@ -3,8 +3,8 @@ import { css } from 'glamor'
 export const markdown = css({
   textAlign: 'justify',
   '& h1, h2, h3, h4, h5, h6, p, ol, ul': {
-    lineHeight: '20px',
-    margin: '20px 0',
+    lineHeight: '24px',
+    margin: '18px 0',
   },
   '& h1': {
     fontSize: '36px',
@@ -48,8 +48,7 @@ export const markdown = css({
     padding: '20px',
   },
   '& pre, code': {
-    backgroundColor: 'dimgray',
-    color: '#B1D631',
+    backgroundColor: '#F7F7F7',
     lineHeight: '20px',
     textAlign: 'left',
     whiteSpace: 'pre-wrap',

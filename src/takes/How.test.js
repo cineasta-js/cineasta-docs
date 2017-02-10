@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { component as AppTake } from 'takes/App'
+import { component as HowScene } from 'takes/How'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<AppTake />, div)
-});
+  ReactDOM.render(<HowScene />, div)
+})

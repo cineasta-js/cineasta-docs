@@ -1,9 +1,9 @@
 import React from 'react'
 import Markdown from 'components/Markdown'
-import markdownFile from 'scenes/What.md'
+import markdownFile from 'takes/What.md'
 
 export const path = 'what'
-export const take= 'app'
+export const scene = 'app'
 
 export const component = () => (
   <div>

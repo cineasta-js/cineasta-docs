@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { component as IndexScene } from 'scenes/Index'
+import { component as WhatScene } from 'takes/What'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<IndexScene />, div)
-});
+  ReactDOM.render(<WhatScene />, div)
+})
