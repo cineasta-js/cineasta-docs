@@ -14,6 +14,6 @@ export const component = (props) => (
       <a href='https://github.com/cineasta-js' target='_blank'>github</a>
     </div>
     <Markdown file={ markdownFile } />
-    <p>What's next? <Link to='/framework' className={ styles.link }>learn about the framework</Link> or <Link to='/cli' className={ styles.link }>learn about the CLI</Link></p>
+    <p>What next? <Link to='/framework' className={ styles.link }>learn about the framework</Link> or <Link to='/cli' className={ styles.link }>learn about the CLI</Link></p>
   </div>
 )
