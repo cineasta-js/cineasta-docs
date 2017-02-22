@@ -24,3 +24,8 @@ export const link = css({
   textOverflow: 'ellipsis',
   whiteSpace: 'nowrap',
 })
+
+export const linkActive = css({
+  color: '#111',
+  fontWeight: 'bold',
+})

@@ -2,6 +2,12 @@ import React from 'react'
 import { IndexLink, Link } from 'react-router'
 import * as styles from 'components/Menu.styles'
 
+const links = [
+  { to: '/framework', text: 'Framework' },
+  { to: '/cli', text: 'CLI' },
+  { to: '/cli/generators', text: 'Generating' },
+]
+
 const Menu = (props) => (
   <nav role='navigation'>
     <ul className={ styles.menu }>
@@ -12,21 +18,16 @@ const Menu = (props) => (
             src='https://github.com/cineasta-js/brand/raw/master/logos/logo-transparent.png' />
         </IndexLink>
       </li>
-      <li className={ styles.menuItem }>
-        <Link to='/what' className={ styles.link }>
-          What?
-        </Link>
-      </li>
-      <li className={ styles.menuItem }>
-        <Link to='/how' className={ styles.link }>
-          How?
-        </Link>
-      </li>
-      <li className={ styles.menuItem }>
-        <Link to='/generating' className={ styles.link }>
-          Generating
-        </Link>
-      </li>
+      { links.map((link, index) => (
+        <li key={ index } className={ styles.menuItem }>
+          <Link
+            to={ link.to}
+            className={ styles.link }
+            activeClassName={ `${ styles.linkActive }` }>
+            { link.text }
+          </Link>
+        </li>
+      )) }
     </ul>
   </nav>
 )
